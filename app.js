@@ -6,7 +6,8 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
  
 app.use(cors({
-  origin: ['http://localhost:3000',],
+  origin: ['https://extraordinary-cannoli-ebd2a0.netlify.app/'],
+  methods: ["POST", "GET"],
   credentials: true
 }));
 
